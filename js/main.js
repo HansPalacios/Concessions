@@ -101,6 +101,13 @@ function updateUI(){
   }
 }
 
+
+document.getElementById("order").onclick = function(){
+  Cookies.expire( "cart" );
+  updateUI();
+};
+
+
 document.getElementById("complaints").addEventListener("click", function(){
     $("#ted").animate({"width": "600px"}, 1000)
   });
@@ -120,7 +127,6 @@ document.getElementById("ted").addEventListener("click", function(){
     $("#ted").animate({"width": "60px"}, 500)
     $("#ted").animate({"width": "1000px"}, 1000)
     $("#ted").animate({"width": "0"}, 1000)
-    
   });
 
 

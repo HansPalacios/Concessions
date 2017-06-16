@@ -1,0 +1,11 @@
+#brbox {
+	background: linear-gradient(silver, black);
+	display: none;
+	border-radius: 10%;
+}
+#fdbox {
+	@extend #brbox;
+}
+#svbox {
+	@extend #brbox;
+}

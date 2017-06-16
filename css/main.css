@@ -1,0 +1,6 @@
+#brbox, #fdbox, #svbox {
+  background: linear-gradient(silver, black);
+  display: none;
+  border-radius: 10%; }
+
+/*# sourceMappingURL=main.css.map */
